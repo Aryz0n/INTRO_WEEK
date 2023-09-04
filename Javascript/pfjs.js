@@ -35,5 +35,6 @@ function divswitch(a){
             document.getElementById("div25").style.display = "block";
             }
             break;
+            
         }
 }
