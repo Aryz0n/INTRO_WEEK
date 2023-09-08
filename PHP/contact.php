@@ -36,7 +36,7 @@ if ($conn->query($sql) === TRUE) {
 }
 $conn->close();
 
-  include_once("../portfolio.html");
+  include_once("../portfolio.php");
 } else {
-  header('location:../portfolio.html');
+  header('location:../portfolio.php');
 }

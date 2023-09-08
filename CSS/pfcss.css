@@ -30,6 +30,7 @@ h2{
         color: white;
         font-family: "MS UI Gothic";
         font-size: 1.5vw;
+        margin: 1vw;
 }
 
 .p2{
@@ -37,6 +38,12 @@ h2{
         font-family: "MS UI Gothic";
         font-size: 1.2vw;
         margin-left: 1vw;
+}
+
+.p3{
+        color: rgb(255, 255, 255);
+        font-family: "Arial";
+        font-size: 1vw;
 }
 
 .yt1{
@@ -74,7 +81,7 @@ h2{
 .div2 {
         float: left;
         border: 0.1vw solid;
-        border-color:rgb(100, 100, 100);
+        border-color:rgb(252, 27, 233);
         background-color: rgba(0, 0, 0, 0.856);
         width: 60%;
         height: 40vw;
@@ -89,6 +96,10 @@ h2{
         display: none;
 }
 
+#div22 {
+        height: 50vw;
+}
+
 #div25 {
         position: absolute;
         border: 0.1vw solid;
@@ -96,7 +107,7 @@ h2{
         background-color: rgba(0, 0, 0, 0.856);
         width: 40%;
         height: 120vw;
-        margin-left: 35%;  
+        margin-left: 33%;  
         margin-top: 30%;
 }
 
@@ -117,7 +128,7 @@ h2{
 
 .bannerbtn {
         background-color: #000000;
-        background-image: url("../media/Aryzon_2023_Banner.jpg");
+        background-image: url("../media/Aryzon_2023_Banner_edited.jpg");
         background-repeat: no-repeat;
         background-size: 21vw;
         background-position: center; 
@@ -134,7 +145,7 @@ h2{
 
 .downloadbtn {
         background-color: #000000;
-        background-image: url("../media/Aryzon_2023_Banner.jpg");
+        background-image: url("../media/Aryzon_2023_Banner_edited.jpg");
         background-repeat: no-repeat;
         background-size: 21vw;
         background-position: center; 
@@ -162,4 +173,22 @@ h2{
 
 #c_message {
         padding-bottom: 20vw;
+}
+
+#projectname {
+        float: left;
+        margin-left: 10%;
+        
+}
+
+#projectdate {
+        float: right;
+        margin-right: 10%;
+}
+
+#projectlang {
+        float: right;
+        margin-right: 20%;
+        font-size: 1.5vw;
+        margin: 1vw;
 }
